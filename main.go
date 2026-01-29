@@ -9,4 +9,5 @@ func main() {
 	text2 := " bugaga"
 	text += text2
 	fmt.Println(num, text)
+	bub(5, 5)
 }
