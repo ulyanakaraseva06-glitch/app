@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"app-1/feature"
+	"fmt"
+)
+
 
 func main() {
 	num := 10
@@ -10,4 +14,6 @@ func main() {
 	text += text2
 	fmt.Println(num, text)
 	bub(5, 5)
+	feature.Srez()
 }
+
